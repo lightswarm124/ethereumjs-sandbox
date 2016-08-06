@@ -1,3 +1,5 @@
+Guide taken from https://github.com/kidwai/ethereumjs-sandbox
+
 ## Motivation
 
 * While learning the basics of Ethereum and Solidity, I frequently wrapped tasks in scripts. After joining [Rubix](https://rubixbydeloitte.com) to work with prototyping Dapps, these became useful in our work, so I was encouraged to continue working on them.

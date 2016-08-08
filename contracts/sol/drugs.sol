@@ -27,7 +27,7 @@ contract drugs {
     balances[receiver] += amount;
   }
 
-  function Send (address sender, address receiver, uint amount) onlyMD(msg.sender) {
+  function Send (address sender, address receiver, uint amount) onlyMD(sender) {
     if (balances[sender] < amount) { throw;}
     balances[sender] -= amount;
     balances[receiver] += amount;
